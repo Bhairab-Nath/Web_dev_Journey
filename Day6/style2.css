@@ -1,0 +1,29 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+#myDiv{
+background-color:yellow;
+
+}
+
+#anotherDiv{
+    background-color: red;
+}
+
+h2{
+    color: green;
+}
+
+img{
+    width: 290px;
+}
+
+.college{
+    background-color: beige;
+}
+.buybtn{
+    color: blue ;
+    
+}
