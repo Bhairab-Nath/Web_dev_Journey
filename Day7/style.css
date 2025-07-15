@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.divBox{
+
+    border: 10px solid red;
+    margin: 15px;
+    padding: 20px;
+    background-color: yellow;
+
+}
+
+h2{
+    margin:15px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+#joinBtn{
+
+    margin:15px;
+    padding: 5px;
+    background-color: aqua;
+    color: yellow;
+    border:1px;
+}
