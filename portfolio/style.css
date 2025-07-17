@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    background-color: beige;
+}
+    
+.navBar{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: rgb(3, 3, 120);
+    list-style-type: none;
+    align-items: center;
+}
+#logo{
+    height:30px;
+    width:auto;
+
+}
+.navItem{
+    text-decoration: none;
+    color: white;
+}
+
+#intro{
+    font-size: 40px;
+}
+.container{
+    display:flex;
+    justify-content: space-around;
+    margin:100px;
+    flex-wrap:wrap;
+}
+
+#profile{
+    height:250px;
+    width: auto;
+
+}
+
+#Text1{
+    color:red;
+    font-weight: bold;
+}
+
+#Contact{
+    background-color: red;
+    color:white;
+    margin:40px;
+    padding:10px 15px;
+    border:1px solid red;
+    border-radius: 10px;
+    font-weight:bold ;
+    
+}
+#footerStyle{
+    display:flex;
+    justify-content: flex-start;
+    list-style-type: none;
+}
+
+.gitlink{
+    height: 50px;
+    width: 50px;
+    margin:40px;
+}
+
+

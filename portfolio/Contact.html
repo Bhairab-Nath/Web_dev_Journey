@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact.Bhairab</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-color: rgb(3, 3, 120);
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+        }
+        .item1{
+            font-size: 20px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            color:white;
+            margin:15px;
+        }
+        .item2{
+            font-size: 40px;
+            font-weight: bold;
+            color:white;
+
+        }
+        .main{
+            display:flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+        .formContainer{
+            display:flex;
+            justify-content: center;
+            margin:30px;
+            background-color: beige;
+            width: 50vh;
+            border-radius: 10px;
+            padding: 30px;
+
+        }
+        #btn{
+            background-color: red;
+            border: 1px solid red;
+            border-radius: 5px;
+            margin-top: 20px;
+            padding:5px 15px;
+            color:white;
+            font-weight: bold;
+        }
+        #details{
+            font-size: 16px;
+            background-color: beige;
+            width: 50vh;
+            border-radius: 10px;
+            padding: 30px;
+            margin:30px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="item1">Bhairab Nath</div>
+        <div class="item2">Contact Me</div>
+        
+    </div>
+    <div class="main">
+    <div class="formContainer">
+
+        <form action="" target="_blank">
+        <label for="email">Email</label><br>
+        <input type="email" name="email" id="email" placeholder="email"><br>
+
+        <label for="password">Password</label><br>
+        <input type="password" name="password" id="password" placeholder="password"><br><br>
+        <textarea name="Message" id="msgbox" cols="30" rows="10" placeholder="Message"></textarea><br>
+
+       <button name="Send" id="btn">Send</button>
+
+    </form>
+    </div>
+    <div id="details">
+        <p>Bhairab Nath <br>
+        Gmail: bhairabnath11@gmail.com</p>
+    </div>
+    </div>
+    
+</body>
+</html>
