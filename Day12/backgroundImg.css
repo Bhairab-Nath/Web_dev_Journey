@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(Shop.jpg);
+    background-color: aqua;
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+.container{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    height:80vh;
+    position: relative;
+}
+.child{
+    color: red;
+    font-size: 50px;
+    margin:50px;
+}
+p{
+    color:brown;
+    font-size: 20px;
+    position: absolute;
+    top:300px;
+    margin:55px;
+}
+
+#Btn{
+    color:white;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 5px 15px;
+    position: absolute;
+    top:350px;
+    margin: 60px;
+
+}

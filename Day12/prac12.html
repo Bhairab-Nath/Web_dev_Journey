@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .container{
+            background-image: url(cameraimg.avif),url(Shop.jpg);
+            background-repeat: no-repeat;
+            background-size:40vw 80vh,100vw 80vh;
+            background-color: bisque;
+            height:80vh;
+            display:flex;
+            justify-content: space-around;
+        }
+        .child{
+            font-size: 20px;
+            color: rgb(0, 148, 32);
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        .container2{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="child">
+            Say Cheese!
+        </div>
+        <div class="child">
+            Shop Now!
+        </div>
+
+    </div>
+    <div class="container2">
+        Multiple background-images
+    </div>
+
+</body>
+</html>
