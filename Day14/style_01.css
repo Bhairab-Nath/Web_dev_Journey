@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+a:link{
+    color:green;
+}
+a:visited{
+    color:brown;
+}
+a:hover{
+    color:blueviolet;
+
+}
+a:active{
+    color:red;
+}
+
+
+
+.container2:hover{
+    background-color: brown;
+}
+
+p:first-child{
+    color: blue;
+}
+
+/* p:last-child{
+    color: blue;
+} */
+
+.container{
+    background-color: beige;
+    margin:260px;
+    padding:100px;
+}
+
+.container2{
+    background-color: red;
+    color:white;
+    height:30px;
+    width: 50px;
+    margin:20px;
+    padding: 10px 25px;
+    border-radius: 300px;
+
+}
+.apply::first-letter{
+    color: red;
+}
+.apply::first-line{
+    color:green;
+}
+.apply::before{
+    content: url(em.webp);
+}
