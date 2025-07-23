@@ -1,0 +1,74 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background-color: beige;
+}
+.container {
+    animation: changeColor 15s ease-in infinite;
+    font-size: 50px;
+    
+}
+
+@keyframes changeColor {
+    0% {
+        color: red;
+        
+    }
+
+    50% {
+        color: blue;
+ 
+    }
+
+    100% {
+        color: green;
+        margin-left: 800px; 
+    }
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    padding: 20px;
+    margin:100px;
+    border: 2px solid white;
+    border-radius: 50%;
+    animation: roll 15s ease-in infinite;
+}
+
+@keyframes roll{
+    from{
+        background-color: red;
+    }
+    to{
+        background-color: aqua;
+        margin-left:600px;
+    }
+}
+
+.box2{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(7, 131, 131);
+    padding: 20px;
+    margin:100px;
+    border: 2px solid blueviolet;
+    
+    animation: box 15s ease-in infinite;
+}
+
+@keyframes box{
+    from{
+        background-color:white;
+    }
+    to{
+        background-color: blue;
+        
+    }
+}
+
+
