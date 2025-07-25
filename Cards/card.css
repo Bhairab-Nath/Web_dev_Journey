@@ -1,0 +1,27 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.card{
+
+    width: 250px;
+    height: 250px;
+    margin:20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 4px 6px 0 rgba(0,0,0,0.19);
+}
+
+img{
+    width:100%;
+}
+h2{
+    margin:30px;
+}
