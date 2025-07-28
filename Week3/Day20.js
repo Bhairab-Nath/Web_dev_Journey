@@ -25,7 +25,7 @@ const findSum = (a,b)=>{
     console.log(`Sum is ${sum} `)
 }
 
-// findSum(2,3)
+findSum(2,3)
 
 // forEach , map, filter
 let names = ['Ram', 'Avinav', 'Rahul']
